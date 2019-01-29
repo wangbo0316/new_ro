@@ -1,0 +1,154 @@
+QTitleLabel{
+    background-color: #C62F2F;
+    font-size: 16pt;
+    color: #ffffff;
+    font-family : 微软雅黑;
+    font-weight : bold;
+}
+  QUnFrameWindow{
+    opacity : 0.8
+  }
+
+ #logo_label{
+  color :gray;
+  font-family :微软雅黑;
+  font-size:10pt;
+  max-height:30px;
+  min-width:800px;
+  border:0px solid red
+ }
+
+QTitleButton{
+    background-color: rgba(255, 255, 255, 0);
+    color: lightgray;
+    border: 0px;
+    font-family : 微软雅黑;
+    font-weight : bold;
+    font-size: 12pt;
+}
+QTitleButton#MinMaxButton:hover{
+    color:#fff
+}
+QTitleButton#CloseButton:hover{
+    color:#fff
+}
+#title_ico{
+    min-width:40;
+    min-height:40
+}
+
+QListWidget, QListView, QTreeWidget, QTreeView {
+    outline: 0px;
+}
+
+QListWidget {
+    min-width: 200px;
+    max-width: 200px;
+    color: #D04C35;
+    background: #F5F5F5;
+    font-family : 微软雅黑;
+    font-size:14pt;
+    font-weight:bold
+
+}
+  QUnFrameWindow{
+    background: #F5F5F5;
+  }
+#content{
+  background-color :#fff;
+}
+
+QListWidget::Item:selected {
+  background: rgba(245, 212, 219, 0.5);
+  border-left: 5px solid #C62F2F;
+  font-family: 微软雅黑;
+  color: #69AAE0;
+}
+
+HistoryPanel:hover {
+    background: rgb(52, 52, 52);
+}
+
+ #title_label{
+   color: #C62F2F;
+   font-family : 微软雅黑;
+   font-size:16pt;
+   font-weight :bold
+  }
+#normal_label{
+  color :gray;
+   font-family : 微软雅黑;
+   font-size:14pt;
+   font-weight :bold
+}
+ #load_btn{
+  min-width: 150px;
+  min-height:30px;
+  background-color : #C62F2F;
+  border :rgba(0,0,0,0);
+  border-radius:10px;
+  color : #ffffff;
+  font-family : 微软雅黑;
+   font-size:14pt;
+   font-weight :bold
+}
+
+
+
+
+#load_btn:hover{
+    color : #C62F2F;
+   background-color : #f0f0f0;
+}
+
+
+#load_btn_CSV{
+  min-width: 100px;
+  min-height:30px;
+  background-color : #C62F2F;
+  border :rgba(0,0,0,0);
+  border-radius:10px;
+  color : #ffffff;
+  font-family : 微软雅黑;
+   font-size:14pt;
+   font-weight :bold
+}
+#load_btn_CSV:hover{
+    color : #C62F2F;
+   background-color : #f0f0f0;
+}
+
+ #load_iuput{
+   min-width: 450px;
+   min-height:25px;
+   font-family:幼圆;
+   padding-left:10px;
+   color:gray;
+   font-size:11pt;
+   border:2px groove #C62F2F;
+   border-radius:10px;
+ }
+ #logo_label{
+  color :gray;
+  font-family :幼圆;
+  font-size:10pt;
+  max-height:20px;
+  min-width:800px;
+  border:0px solid red
+ }
+
+ #submit_btn{
+   min-width :800px;
+   min-height :40px;
+   background-color : #C62F2F;
+   border :rgba(0,0,0,0);
+   color : #ffffff;
+   font-family : 微软雅黑;
+   font-size:14pt;
+   font-weight :bold;
+   border-radius:15px;
+ }
+ #submit_btn:hover{
+   color : #C62F2F;
+   background-color : #f0f0f0;
+ }
