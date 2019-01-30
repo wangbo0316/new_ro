@@ -1,5 +1,5 @@
 from config import setting
-
+from config import router
 from PyQt5.QtWidgets import  QLabel, QPushButton, QVBoxLayout,QListWidget,QStackedWidget,QListWidgetItem,QWidget,QHBoxLayout,QGridLayout,QFileDialog
 from PyQt5.QtCore import  QPoint,QSize, Qt
 from PyQt5.QtGui import QPixmap
@@ -60,12 +60,12 @@ class QUnFrameWindow(QWidget):
         self.left_widget.setFrameShape(QListWidget.NoFrame)    #去掉边框
         self.left_widget.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)  #隐藏滚动条
         self.left_widget.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-        # for item in ROUTER:
-        #     self.item = QListWidgetItem(item, self.left_widget)
-        #     self.item.setSizeHint(QSize(20, 60))
-        #     self.item.setTextAlignment(Qt.AlignCenter)
-        #     self.right_widget.addWidget(ROUTER[item]())
-        #     self.right_widget.setObjectName('content')
+        for item in router.ROUTER:
+            self.item = QListWidgetItem(item, self.left_widget)
+            self.item.setSizeHint(QSize(20, 60))
+            self.item.setTextAlignment(Qt.AlignCenter)
+            self.right_widget.addWidget(router.ROUTER[item]())
+            self.right_widget.setObjectName('content')
 
     def initDrag(self):
         # 设置鼠标跟踪判断扳机默认值

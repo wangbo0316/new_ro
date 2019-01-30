@@ -117,9 +117,24 @@ HistoryPanel:hover {
     color : #C62F2F;
    background-color : #f0f0f0;
 }
+#load_btn_Mon:hover{
+  color : #C62F2F;
+  background-color : #f0f0f0;
+}
+#load_btn_Mon{
+  min-width: 200px;
+  min-height:30px;
+  background-color : #C62F2F;
+  border :rgba(0,0,0,0);
+  border-radius:10px;
+  color : #ffffff;
+  font-family : 微软雅黑;
+  font-size:14pt;
+  font-weight :bold
+}
 
  #load_iuput{
-   min-width: 450px;
+   min-width: 650px;
    min-height:25px;
    font-family:幼圆;
    padding-left:10px;
