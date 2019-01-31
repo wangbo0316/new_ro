@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8981b4c4-3f57-438d-860d-790a7de91410" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script/CAPITAL/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/CAPITAL/upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/INDUSTRY/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/INDUSTRY/upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/MARKETING/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/MARKETING/upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/RO/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/CAPITAL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/INDUSTRY.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/MARKRTING.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/RO/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/RO/calculate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/RO/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/RO/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,36 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/RO/calculate.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+            <state relative-caret-position="348">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/install.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="e#98#351#0" />
-                <element signature="e#98#178#1" />
-                <element signature="e#389#805#0" />
-                <element signature="e#389#476#1" />
-                <element signature="e#840#1020#0" />
-                <element signature="e#840#925#1" />
-                <element signature="e#1095#1410#0" />
-                <element signature="e#1431#1478#0" />
-                <element signature="e#0#117#1" />
-                <element signature="e#2458#3193#0" />
-                <element signature="e#3247#3412#0" />
-                <element signature="e#3366#3412#0" />
-                <element signature="e#3469#3634#0" />
-                <element signature="e#3588#3634#0" />
-                <element signature="e#3687#3852#0" />
-                <element signature="e#3806#3852#0" />
-                <element signature="e#5599#9844#0" />
-                <element signature="e#7455#8190#0" />
-                <element signature="e#8244#8409#0" />
-                <element signature="e#8363#8409#0" />
-                <element signature="e#8466#8631#0" />
-                <element signature="e#8585#8631#0" />
-                <element signature="e#8684#8849#0" />
-                <element signature="e#8803#8849#0" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +82,8 @@
         <option value="$PROJECT_DIR$/script/RO/upload.py" />
         <option value="$PROJECT_DIR$/script/MARKETING/upload.py" />
         <option value="$PROJECT_DIR$/script/RO/calculate.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/install.py" />
       </list>
     </option>
   </component>
@@ -124,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -132,27 +108,11 @@
               <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="MARKETING" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="RO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,16 +261,18 @@
       <workItem from="1548814705612" duration="9408000" />
       <workItem from="1548836249715" duration="2347000" />
       <workItem from="1548898937347" duration="15426000" />
+      <workItem from="1548926156868" duration="597000" />
+      <workItem from="1548926970926" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44470000" />
+    <option name="totallyTimeSpent" value="45546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27493262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28436658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/RO/calculate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+        <state relative-caret-position="319">
+          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
           <folding>
             <element signature="e#98#351#0" />
             <element signature="e#98#178#1" />
@@ -511,24 +473,73 @@
             <element signature="e#389#476#1" />
             <element signature="e#840#1020#0" />
             <element signature="e#840#925#1" />
+            <element signature="e#1058#5732#0" />
             <element signature="e#1095#1410#0" />
             <element signature="e#1431#1478#0" />
             <element signature="e#0#117#1" />
-            <element signature="e#2458#3193#0" />
-            <element signature="e#3247#3412#0" />
-            <element signature="e#3366#3412#0" />
-            <element signature="e#3469#3634#0" />
-            <element signature="e#3588#3634#0" />
-            <element signature="e#3687#3852#0" />
-            <element signature="e#3806#3852#0" />
-            <element signature="e#5599#9844#0" />
-            <element signature="e#7455#8190#0" />
-            <element signature="e#8244#8409#0" />
-            <element signature="e#8363#8409#0" />
-            <element signature="e#8466#8631#0" />
-            <element signature="e#8585#8631#0" />
-            <element signature="e#8684#8849#0" />
-            <element signature="e#8803#8849#0" />
+            <element signature="e#1695#2996#0" />
+            <element signature="e#0#60#2" />
+            <element signature="e#0#35#2" />
+            <element signature="e#0#36#2" />
+            <element signature="e#2383#2501#0" />
+            <element signature="e#0#55#2" />
+            <element signature="e#2520#2889#0" />
+            <element signature="e#17#346#1" />
+            <element signature="e#3017#3061#0" />
+            <element signature="e#3364#4099#0" />
+            <element signature="e#4153#4318#0" />
+            <element signature="e#4272#4318#0" />
+            <element signature="e#4375#4540#0" />
+            <element signature="e#4494#4540#0" />
+            <element signature="e#4593#4758#0" />
+            <element signature="e#4712#4758#0" />
+            <element signature="e#4803#5465#0" />
+            <element signature="e#4850#4965#0" />
+            <element signature="e#5248#5341#0" />
+            <element signature="e#5291#5341#0" />
+            <element signature="e#5519#5670#0" />
+            <element signature="e#0#38#1" />
+            <element signature="e#5691#5732#0" />
+            <element signature="e#5770#10076#0" />
+            <element signature="e#5783#6052#0" />
+            <element signature="e#0#117#1" />
+            <element signature="e#6268#7524#0" />
+            <element signature="e#0#60#2" />
+            <element signature="e#0#35#2" />
+            <element signature="e#0#36#2" />
+            <element signature="e#6956#7074#0" />
+            <element signature="e#0#55#2" />
+            <element signature="e#7093#7462#0" />
+            <element signature="e#17#346#1" />
+            <element signature="e#7854#8589#0" />
+            <element signature="e#8643#8808#0" />
+            <element signature="e#8762#8808#0" />
+            <element signature="e#8865#9030#0" />
+            <element signature="e#8984#9030#0" />
+            <element signature="e#9083#9248#0" />
+            <element signature="e#9202#9248#0" />
+            <element signature="e#9293#9954#0" />
+            <element signature="e#9340#9455#0" />
+            <element signature="e#9738#9831#0" />
+            <element signature="e#9781#9831#0" />
+            <element signature="e#0#38#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
