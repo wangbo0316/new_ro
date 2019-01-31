@@ -1,1 +1,1 @@
-__all__ = ['RO','CRM']
+__all__ = ['RO','CRM','INDUSTRY','CAPITAL','MARKRTING']

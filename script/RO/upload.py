@@ -51,6 +51,12 @@ def UploadRo(path,c):
                         vo[i] = float(row[validata[i]])
                     except:
                         vo[i] = 0
+                elif i in ['集团编号','计费号码','产品实例']:
+                    try:
+                        a = '%.0f'%int(row[validata[i]])
+                    except:
+                        a = row[validata[i]]
+                    vo[i] = a
                 else:
                     vo[i] = row[validata[i]]
         results.append(vo)

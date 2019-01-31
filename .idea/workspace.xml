@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8981b4c4-3f57-438d-860d-790a7de91410" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/util/ExcelLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/util/MySQLConnector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/CRM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/CAPITAL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/CAPITAL/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/INDUSTRY/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/INDUSTRY/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/MARKETING/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/MARKETING/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/RO/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/CAPITAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/INDUSTRY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/MARKRTING.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/CRM/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/CRM/upload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/RO/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/RO/calculate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/RO/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/RO/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.qss" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.qss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/Bazaar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/RO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,111 +25,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/new_ro$main.coverage" NAME="main Coverage Results" MODIFIED="1548821377321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/new_ro$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1548821372317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script/RO" />
+    <SUITE FILE_PATH="coverage/new_ro$main.coverage" NAME="main Coverage Results" MODIFIED="1548923363306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_ro$upload.coverage" NAME="upload Coverage Results" MODIFIED="1548903795891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script/INDUSTRY" />
+    <SUITE FILE_PATH="coverage/new_ro$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1548913004849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script/RO" />
+    <SUITE FILE_PATH="coverage/new_ro$test.coverage" NAME="test Coverage Results" MODIFIED="1548899873778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script/RO" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/RO/upload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/router.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/util/MySQLConnector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2639">
-              <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-              <folding>
-                <element signature="e#82#139#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/CRM/upload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="23" lean-forward="true" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/RO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-              <folding>
-                <element signature="e#143#231#0" expanded="true" />
-                <element signature="e#392#1296#0" />
-                <element signature="e#464#490#0" />
-                <element signature="e#535#554#0" />
-                <element signature="e#605#857#0" />
-                <element signature="e#886#1046#0" />
-                <element signature="e#1077#1118#0" />
-                <element signature="e#1150#1189#0" />
-                <element signature="e#1219#1296#0" />
-                <element signature="e#1397#1422#0" />
-                <element signature="e#1537#1792#0" />
-                <element signature="e#2012#2053#0" />
-                <element signature="e#2085#2124#0" />
-                <element signature="e#2154#2231#0" />
-                <element signature="e#4722#4997#0" />
-                <element signature="e#5033#5561#0" />
-                <element signature="e#5188#5352#0" />
-                <element signature="e#5389#5561#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/RO/calculate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="146">
+              <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#1668#1683#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/main.qss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#98#351#0" />
+                <element signature="e#98#178#1" />
+                <element signature="e#389#805#0" />
+                <element signature="e#389#476#1" />
+                <element signature="e#840#1020#0" />
+                <element signature="e#840#925#1" />
+                <element signature="e#1095#1410#0" />
+                <element signature="e#1431#1478#0" />
+                <element signature="e#0#117#1" />
+                <element signature="e#2458#3193#0" />
+                <element signature="e#3247#3412#0" />
+                <element signature="e#3366#3412#0" />
+                <element signature="e#3469#3634#0" />
+                <element signature="e#3588#3634#0" />
+                <element signature="e#3687#3852#0" />
+                <element signature="e#3806#3852#0" />
+                <element signature="e#5599#9844#0" />
+                <element signature="e#7455#8190#0" />
+                <element signature="e#8244#8409#0" />
+                <element signature="e#8363#8409#0" />
+                <element signature="e#8466#8631#0" />
+                <element signature="e#8585#8631#0" />
+                <element signature="e#8684#8849#0" />
+                <element signature="e#8803#8849#0" />
               </folding>
             </state>
           </provider>
@@ -157,15 +90,22 @@
         <option value="$PROJECT_DIR$/script/CRM/calculate.py" />
         <option value="$PROJECT_DIR$/script/util/MySQLConnector.py" />
         <option value="$PROJECT_DIR$/ui/Bazaar.py" />
-        <option value="$PROJECT_DIR$/ui/__init__.py" />
         <option value="$PROJECT_DIR$/ui/CRM.py" />
-        <option value="$PROJECT_DIR$/config/router.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/config/setting.py" />
         <option value="$PROJECT_DIR$/script/CRM/upload.py" />
-        <option value="$PROJECT_DIR$/script/RO/upload.py" />
         <option value="$PROJECT_DIR$/static/main.qss" />
         <option value="$PROJECT_DIR$/ui/RO.py" />
+        <option value="$PROJECT_DIR$/script/RO/test.py" />
+        <option value="$PROJECT_DIR$/ui/INDUSTRY.py" />
+        <option value="$PROJECT_DIR$/script/INDUSTRY/upload.py" />
+        <option value="$PROJECT_DIR$/ui/__init__.py" />
+        <option value="$PROJECT_DIR$/config/router.py" />
+        <option value="$PROJECT_DIR$/ui/CAPITAL.py" />
+        <option value="$PROJECT_DIR$/ui/MARKRTING.py" />
+        <option value="$PROJECT_DIR$/script/CAPITAL/upload.py" />
+        <option value="$PROJECT_DIR$/script/RO/upload.py" />
+        <option value="$PROJECT_DIR$/script/MARKETING/upload.py" />
         <option value="$PROJECT_DIR$/script/RO/calculate.py" />
       </list>
     </option>
@@ -184,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -194,12 +135,13 @@
             <path>
               <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MARKETING" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -207,21 +149,10 @@
               <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="RO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="new_ro" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,10 +231,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new_ro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/RO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/RO/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new_ro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/INDUSTRY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/INDUSTRY/upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.calculate" />
+        <item itemvalue="Python.upload" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -322,16 +299,18 @@
       <workItem from="1548741288070" duration="9410000" />
       <workItem from="1548812116670" duration="1492000" />
       <workItem from="1548814705612" duration="9408000" />
+      <workItem from="1548836249715" duration="2347000" />
+      <workItem from="1548898937347" duration="15426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26697000" />
+    <option name="totallyTimeSpent" value="44470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2661725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27493262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,23 +340,6 @@
     <entry file="file://$PROJECT_DIR$/script/CRM/calculate.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/CRM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#143#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -385,23 +347,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/RO/upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -415,34 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/main.qss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/CRM/upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="23" lean-forward="true" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/RO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <caret line="63" column="18" selection-end-line="172" />
           <folding>
             <element signature="e#143#231#0" expanded="true" />
             <element signature="e#392#1296#0" />
@@ -453,26 +374,161 @@
             <element signature="e#1077#1118#0" />
             <element signature="e#1150#1189#0" />
             <element signature="e#1219#1296#0" />
-            <element signature="e#1397#1422#0" />
-            <element signature="e#1537#1792#0" />
-            <element signature="e#2012#2053#0" />
-            <element signature="e#2085#2124#0" />
-            <element signature="e#2154#2231#0" />
-            <element signature="e#4722#4997#0" />
-            <element signature="e#5033#5561#0" />
-            <element signature="e#5188#5352#0" />
-            <element signature="e#5389#5561#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/RO/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.qss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/CRM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="49" column="29" lean-forward="true" selection-end-line="125" selection-end-column="71" />
+          <folding>
+            <element signature="e#143#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/router.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/CAPITAL/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/INDUSTRY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#143#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/CAPITAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#143#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/MARKRTING.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#143#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/RO/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/INDUSTRY/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/CAPITAL/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/CRM/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="23" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/MARKETING/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/RO/calculate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="146">
+          <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#1668#1683#0" />
+            <element signature="e#98#351#0" />
+            <element signature="e#98#178#1" />
+            <element signature="e#389#805#0" />
+            <element signature="e#389#476#1" />
+            <element signature="e#840#1020#0" />
+            <element signature="e#840#925#1" />
+            <element signature="e#1095#1410#0" />
+            <element signature="e#1431#1478#0" />
+            <element signature="e#0#117#1" />
+            <element signature="e#2458#3193#0" />
+            <element signature="e#3247#3412#0" />
+            <element signature="e#3366#3412#0" />
+            <element signature="e#3469#3634#0" />
+            <element signature="e#3588#3634#0" />
+            <element signature="e#3687#3852#0" />
+            <element signature="e#3806#3852#0" />
+            <element signature="e#5599#9844#0" />
+            <element signature="e#7455#8190#0" />
+            <element signature="e#8244#8409#0" />
+            <element signature="e#8363#8409#0" />
+            <element signature="e#8466#8631#0" />
+            <element signature="e#8585#8631#0" />
+            <element signature="e#8684#8849#0" />
+            <element signature="e#8803#8849#0" />
           </folding>
         </state>
       </provider>
